@@ -12,7 +12,9 @@
     "dotenv": "^2.0.0",
     "ejs": "~2.4.1",
     "express": "~4.13.4",
+    "mongoose": "^4.6.0",
     "morgan": "~1.7.0",
+    "node-bing-api": "^2.4.1",
     "nodemon": "^1.10.2",
     "serve-favicon": "~2.3.0"
   }
