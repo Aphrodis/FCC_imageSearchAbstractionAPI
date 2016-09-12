@@ -32,15 +32,16 @@ app.use(function(req, res, next) {
 
 
 //listen to port 3000 (local)
+/*
 app.listen(3000);
 console.log('You are listening to port 3000');
-
+*/
 
 //for heroku
-/*
+
 app.listen(process.env.PORT, function() {
     console.log('Listening to default PORT')
 });
-*/
+
 
 module.exports = app;
