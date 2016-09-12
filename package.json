@@ -2,7 +2,7 @@
 "name": "image_search",
 "version": "0.0.0",
 "scripts": {
-"start": "node app.js"
+"start": "app.js"
 },
   "dependencies": {
     "body-parser": "~1.15.1",
