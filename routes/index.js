@@ -3,7 +3,7 @@ var router = express.Router();
 var path = require('path');
 var mongoose = require('mongoose');
 //commented for production
-//require('dotenv').config();
+require('dotenv').config();
 var Bing = require('node-bing-api')({accKey: process.env.BING_KEY, rootUri:"https://api.datamarket.azure.com/Bing/Search/v1/"});
 
 //connect to the database
