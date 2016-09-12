@@ -9,6 +9,7 @@ var Bing = require('node-bing-api')({accKey: process.env.BING_KEY, rootUri:"http
 //connect to the database
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://' + process.env.DB_USER + ':' + process.env.DB_PASS + '@' + process.env.DB_HOST);
+mongoose.set('debug', true);
 
 //create a schema
 var historySchema = new mongoose.Schema({
